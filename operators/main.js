@@ -1,8 +1,26 @@
-let a, b
+const nameGame = {
+    nameGame: 'Mafia II'
+}
 
-a = 10
-b = a
+const ratingGame = {
+    ratingGame: 80
+}
 
-let c = a + b
+const mechanicsGame = {
+    shooting: true,
+    driving: true,
+    flying: false,
+}
 
-console.log(c)
+const genreGame = {
+    firstGenre: '3rd person',
+    secondGenre: 'Action'
+}
+
+const mafia2 = {
+    ...nameGame,
+    ...genreGame,
+    ...mechanicsGame
+}
+
+console.table(mafia2)
