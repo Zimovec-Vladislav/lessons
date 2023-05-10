@@ -1,11 +1,13 @@
-function compareArrays (array1, array2) {
-    console.log((array1 === array2) ? true : false)
-    return
-}
+const myArray = [1, 2, 3, 4]
+console.log(myArray)
+console.log(myArray.length)
 
-const myArray1 = ['Glory', 'Ukraine']
-const myArray2 = new Array('Glory', 'Ukraine')
-const myArray3 = myArray1
-const myArray4 = ['Fuck', 'Russia']
+myArray[2] = 'abc'
 
-compareArrays(myArray1, myArray2)
+console.log(myArray)
+console.log(myArray[2])
+
+myArray[5] = true
+
+console.log(myArray)
+console.log(myArray.length)
