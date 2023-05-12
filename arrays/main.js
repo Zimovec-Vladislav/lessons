@@ -1,13 +1,8 @@
-const myArray = [1, 2, 3, 4]
+const myArray = [1, 2, 3, 11]
 console.log(myArray)
-console.log(myArray.length)
 
-myArray[2] = 'abc'
+const res = myArray.forEach(el => console.log(el*2))
 
-console.log(myArray)
-console.log(myArray[2])
-
-myArray[5] = true
+console.log(res)
 
 console.log(myArray)
-console.log(myArray.length)
