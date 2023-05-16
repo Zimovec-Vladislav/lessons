@@ -1,5 +1,6 @@
-const value = 11
+let value = 11
+console.log(value >= 0 ? value : -value)
 
-value
-    ? console.log('Условие истинно')
-    : console.log('Условие ложно')
+value = -5
+const res = value >= 0 ? value : -value
+console.log(res)
