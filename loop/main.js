@@ -1,4 +1,5 @@
-const myArray = ['first', 'second', 'third']
- for (let i = 0; i < myArray.length; i++) {
-    console.log(myArray[i])
- }
+const myArray = [[1, 2], 2, 3]
+
+myArray.forEach((element) => {
+    console.log(element)
+})
