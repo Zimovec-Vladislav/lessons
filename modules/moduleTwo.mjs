@@ -1,4 +1,7 @@
-import sumNumbers from './moduleOne.mjs'
+import {
+    one,
+    two
+} from './moduleOne.mjs'
 
-const res = sumNumbers(10, 2)
-console.log(res)
+console.log(one)
+console.log(two)
