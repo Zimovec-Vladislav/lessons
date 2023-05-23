@@ -1,11 +1,9 @@
-class Comment {
-    constructor (text) {
-        this.text = text
-    }
-
-    static mergeCommentary (first, second) {
-        return `${first}, ${second}`
+class NumberArray extends Array {
+    sum() {
+        return this.reduce((el, acc) => acc + el)
     }
 }
 
-Comment.mergeCommentary('The blue whale', 'infinite ocean')
+const myArray = new NumberArray(2324, 645, 999)
+
+console.log(myArray.sum())
