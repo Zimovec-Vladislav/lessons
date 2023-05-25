@@ -1,4 +1,4 @@
-fetch('https://jsonplaceholder.typicode.com/todos')
+fetch('https://jsonplaceholder.typicode.com/todos/5')
     .then(response => response.json())
     .then(json => console.log(json))
-    .catch(error => console.log(error.message))
+    .catch(error => console.error(error))
